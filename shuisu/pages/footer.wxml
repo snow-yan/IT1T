@@ -1,0 +1,17 @@
+
+<view class="foot" style='background:url(../../images/foot_bg.jpg) repeat-x;'>
+    <view class="w720">
+    <view class="foot_1 clearfix">
+    <view class="foot_1_1 f_l">
+    <image src='../../images/2.png' mode='widthFix' style='width:20%;'></image>
+    <view class="div_tit" ><view class="p1" style='background:url(../../images/foot_1_1_bg3.jpg) no-repeat 0 0;'>029-63011060</view></view>
+    <view class="div_tit" style='background:url(../../images/foot_1_1_bg2.jpg) repeat-x bottom;'><view class="p2" style='background:url(../../images/foot_1_1_bg4.jpg) no-repeat 0 0;'>西安市高新区丈八一路绿地SOHO B座1809</view></view>
+<text style='font-size:12px;'>CopyRight © 2005-2017西安水素网络科技有限公司
+---[网营专家]  All Rights Reserved 
+ 备案号：陕ICP备15002911号</text>
+    </view>
+    </view>
+  </view>
+<!--foot over-->
+
+</view>

@@ -1,0 +1,11 @@
+<!--pages/zifei/zifei.wxml-->
+<view class='zifei pd04 marl05 marb10'>资费套餐</view>
+<view class="case_list clo_two w100box  pdr05 pdb10" style="border-bottom:1px solid #e0e0e0;">
+<view class="col_list pdl05 pdb05 pdb05 w100box t-two" wx:for="{{taocan_list}}" wx:key="{{index}}" data-id="{{item.id}}">
+  <navigator url="/pages/zifeiShow/zifeiShow?id={{item.id}}">
+        <image src="{{item.image}}" mode='widthFix' style="width:100%;"></image>
+        <view class="title ftz07 t-one pdl02 pdr02 ">{{item.title}}</view>
+  </navigator>
+        
+  </view>    
+</view>

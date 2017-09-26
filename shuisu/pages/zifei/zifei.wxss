@@ -1,0 +1,9 @@
+/* pages/zifei/zifei.wxss */
+@import "../../css/init.wxss";
+
+.zifei{
+  background: #FB9E00;
+  color: #fff;
+  float:left;
+  font-size: 14px;
+}

@@ -1,0 +1,57 @@
+@import "../../css/init.wxss";
+.zifei{
+  background: #FB9E00;
+  color: #fff;
+  float:left;
+  font-size: 14px;
+}
+.logo{
+  width: 200px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+.img_logo{
+  width: 100%;
+  height: 48px;
+}
+.slide-image{
+  width: 100%;
+}
+.col_list{
+ text-align: center;
+}
+.col_list .web_ico{
+  width: 70%;
+}
+.col_list text{
+  display: inline-block;
+}
+.case_title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.case{
+  width: 100%;
+  text-align: center;
+}
+.case_list .col_list image{
+  width: 100%;
+  height: 7rem;
+}
+.case_list .title,.case_list .case_date{
+  text-align: left;
+}
+.case_list .title{
+  line-height: 1rem;
+}
+.case_list .case_date{
+  line-height: 0.9rem;
+}
+.banner_case image{
+  width: 100%;
+}
+.case_list{
+  margin-bottom: 2rem;
+}

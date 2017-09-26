@@ -1,0 +1,4 @@
+<!--pages/anliShow/anliShow.wxml-->
+<image src="{{img}}" mode="widthFix" style="width:100%;"></image>
+<view style='height:30px;'></view>
+<include src="../footer.wxml"/>

@@ -1,0 +1,10 @@
+<!--pages/zixun/zixun.wxml-->
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;"  bindscrolltolower="loadMore" bindscrolltoupper="refresh">
+<view class='zifei pd04 marl05 marb10'>资费套餐</view>
+      <view class="case_list clo_two w100box pdl05 pdr05">
+     <view class="col_list pdl05 pdb05 pdb05 w100box" wx:key="{{case_info.id}}" wx:for="{{case_list}}" wx:for-index="idx" wx:for-item="case_info" data-id="{{case_info.id}}">
+        <image src="{{case_info.thumb}}" ></image>
+        <view class="case_date ftz07 t-676767 pdl02 pdr02 t-one" >{{case_info.title}}</view>
+    </view>
+    </view>
+ </scroll-view>

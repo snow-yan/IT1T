@@ -1,0 +1,25 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.chance{
+  /* height: 60rpx; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+
+}
+.chance .c_x{
+  width: 33.3%;
+  line-height: 70rpx;
+  font-size: 12px;
+  text-align: center;
+}
+.chance .active{
+  border-bottom:3px solid #009BF8;
+}

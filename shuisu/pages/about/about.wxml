@@ -1,0 +1,20 @@
+<!--pages/about/about.wxml-->
+<image src="../../images/banner1.jpg" mode='widthFix' style='width:100%;'></image>
+<view class='pd06'>
+  <view style='color:#FB9F00' class='ftz10'>About Us </view>
+  <view  class='ftz10' style='line-height:60px;'>携手水素 创造只属于你的经典 </view>
+  <view style='height:10px;border-bottom:3px solid #000000;width:200px;'></view>
+  <view class='ftz08 umh35' style='font-weight:bold;'>公司简介</view>
+  <text space="emsp" class='ftz07'>  西安水素网络科技有限公司是西安地区规模最大、口碑最好、最具影响力的网络公司之一。公司立足西安，辐射西北乃至全国，专注于互联网技术开发、网络技术营销、网络应用服务的创新型企业。公司主打的PC端及移动互联网效果营销品牌，自成立以来，我们整合了PC端丰富的网络传播媒介渠道，包括媒体、论坛、博客、社交类网站等多种网络传播形式，合力形成独具成效、网络全面覆盖、信息迅速发散的创新网络传播模式，为企业客户在网络上打造积极正面的品牌形象。</text>
+  <view class='ftz08 umh35' style='font-weight:bold;'>品牌服务</view>
+  <text space="emsp" class='ftz07'>  网营专家，是一家以专业效果营销为核心业务的实战型网络营销策划机构，拥有咨询策划、创意设计、技术开发、运营维护、营销推广在内的全面服务团队。从品牌设计、网站建设、网络效果营销、网络运营托管、移动互联网营销、网络活动策划、APP设计开发、电子商务到数字营销，我们专业为客户提供领先且可靠的一站式网络营销服务，在行内拥有很高的声誉和口碑，是国内为数不多不断努力发展创新的新型网络营销服务机构。 　　我们深知：您的价值就是我们的价值，您的客户就是我们的客户，您能在行业内取得成功便是我们的成功！网营专家，以网络效果营销为目标，为您提供基于数据化的专业营销推广服务。</text>
+  <view class='ftz08 umh35' style='font-weight:bold;'>专业领域</view>
+  <text space="emsp" class='ftz07'>  网站建设、微博营销、微信营销、新闻营销、视频营销、口碑营销、BBS营销、软文营销、百科营销、SEO营销、SNS营销、百度竞价、互动营销、话题营销、APP开发等。</text>
+  <view class='ftz08 umh35' style='font-weight:bold;'>社会评价</view>
+  <text space="emsp" class='ftz07'>  客户对于网营专家品牌的评价：做工作严谨、认真及时准确的完成、能满足客户需求所有工作有序、每月按时发工作总结、与客户沟通及时媒体资源丰富、为企业带来更多的订单和业绩，同时提高了品牌的知名度和美誉度。</text>
+  <view class='ftz08 umh35' style='font-weight:bold;'>发展目标</view>
+  <text space="emsp" class='ftz07'>  在未来，网营专家将坚持以“专注网络效果营销”的企业发展战略，围绕“帮助客户成功”的企业核心价值观，与全球企业一起共同成长，相融共生，共创美好未来。</text>
+  
+</view>
+<include src="../footer.wxml"/>
+

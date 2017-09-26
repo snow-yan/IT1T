@@ -1,0 +1,36 @@
+
+<view class="banner_case">
+   <image src="http://www.xadade.net/uploadfile/1385092052.jpg" mode="widthFix" style='width:100%;'></image>
+</view>
+<view class='chance'>
+  <view class="c_x  {{sortIndex==1?'active':''}}" data-id='1' bindtap='click_cx'>朋友圈广告</view>
+  <view class="c_x  {{sortIndex==2?'active':''}}" data-id='2'  bindtap='click_cx'>公众号广告</view>
+  <view class="c_x  {{sortIndex==3?'active':''}}" data-id='3'  bindtap='click_cx'>腾讯广告</view>
+</view>
+
+  <view wx:if="{{sortfilter==1}}">
+    <image src="{{urL}}/images/app_6.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_ten_type1.jpg" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_target.jpg" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_1.png" mode='widthFix' style='width:100%;'></image>
+
+  </view>
+  <view wx:if="{{sortfilter==2}}">
+     <image src="{{urL}}/images/app_4.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_5.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}../../images/app_ten_type2.jpg" mode='widthFix' style='width:100%;'></image> 
+      <image src="{{urL}}/images/app_2.png" mode='widthFix' style='width:100%;'></image>  
+    <image src="{{urL}}/images/app_advs.jpg" mode='widthFix' style='width:100%;'></image> 
+  </view>
+  <view wx:if="{{sortfilter==3}}">
+    <image src="{{urL}}/images/app_7.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_ten_ico1.jpg" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_ten_ico2.jpg" mode='widthFix' style='width:100%;'></image> 
+    <image src="{{urL}}/images/app_8.png" mode='widthFix' style='width:100%;'></image>  
+    <image src="{{urL}}/images/app_space.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_9.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_native.png" mode='widthFix' style='width:100%;'></image> 
+    <image src="{{urL}}/images/app_11.png" mode='widthFix' style='width:100%;'></image>
+    <image src="{{urL}}/images/app_10.png" mode='widthFix' style='width:100%;'></image>
+    
+  </view>

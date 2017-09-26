@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/case/index",
+    "pages/news/index",
+    "pages/zifei/zifei",
+    "pages/anliShow/anliShow",
+    "pages/zifeiShow/zifeiShow",
+    "pages/about/about",
+    "pages/zixun/zixun",
+    "pages/zixunShow/zixunShow"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "水素网络科技有限公司",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "light",
+    "selectedColor": "#FAA81D",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "微信推广",
+        "iconPath": "/images/tui.png",
+        "selectedIconPath": "/images/tui1.png"
+      },
+      {
+        "pagePath": "pages/zifei/zifei",
+        "text": "资费套餐",
+        "iconPath": "/images/taochan.png",
+        "selectedIconPath": "/images/taochan1.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "联系我们",
+        "iconPath": "/images/contact.png",
+        "selectedIconPath": "/images/contact1.png"
+      }
+    ]
+  }
+}

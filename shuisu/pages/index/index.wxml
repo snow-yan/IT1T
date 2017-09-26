@@ -1,0 +1,123 @@
+
+<scroll-view scroll-y="true" bindscroll="scroll" scroll-top="{{scrollTop}}" bindscrolltolower="getMore" style="position:absolute; top:0; left:0; right:0; bottom:0;">
+  
+<include src="../header.wxml"/>
+<view style='height:120rpx;'></view>
+<swiper autoplay="true" interval="5000" duration="1000" style='height:400rpx;'>
+    <swiper-item wx:for="{{banner_list}}" wx:key="{{lists.id}}" wx:for-index="idx" wx:for-item="lists">
+      <image src="{{lists.thumb}}" class="slide-image" />
+    </swiper-item>
+</swiper> 
+<view class="clo_three">
+  <view class="col_list" bindtap="onLoad">
+    <image src="{{urL}}/images/yuan1.png" class="web_ico" mode="widthFix"></image>
+    <text class="ftz07">网站首页</text>
+  </view>
+   <view class="col_list"   data-id="233">
+      <navigator url='/pages/case/index?id=1'>
+          <image src="{{urL}}/images/yuan2.png" class="web_ico"  mode="widthFix"></image>
+          <text class="ftz07">品牌案例</text>
+      </navigator>    
+  </view>
+   <view class="col_list"  data-id="288">
+   <navigator url='/pages/zifei/zifei'  hover-class="navigator-hover" open-type="switchTab">
+      <image src="{{urL}}/images/yuan3.png" class="web_ico" mode="widthFix"></image>
+      <text class="ftz07">资费套餐</text>
+   </navigator>
+    
+  </view>
+   <view class="col_list" data-id="1">
+    <navigator url="/pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image src="{{urL}}/images/yuan4.png" class="web_ico" mode="widthFix"></image>
+      <text class="ftz07">微信推广</text>
+    </navigator>
+    
+  </view>
+   <view class="col_list"   data-id="270">
+   <navigator url='/pages/about/about'>
+          <image src="{{urL}}/images/yuan5.png" class="web_ico" mode="widthFix"></image>
+          <text class="ftz07">关于水素</text>
+   </navigator>
+  
+  </view>
+   <view class="col_list"  data-id="239">
+      <navigator url="/pages/news/index" open-type="switchTab" hover-class="other-navigator-hover">
+          <image src="{{urL}}/images/yuan6.png" class="web_ico" mode="widthFix"></image>
+          <text class="ftz07">联系我们</text>
+      </navigator>    
+  </view>
+</view>
+<view class="case_title pdt10" >
+  <view class="ftz09">品牌案例</view>
+  <view class="ftz05">CASES</view>
+</view>
+<view class="case_list clo_two w100box pdl05 pdr05 pdb10" style="border-bottom:1px solid #e0e0e0;text-align:center;overflow:hidden;">
+    <view class="col_list pdl05 pdb05 pdb05 w100box" wx:for="{{case_list}}" wx:key="{{index}}" data-id='{{item.id}}'>
+      <navigator url='/pages/anliShow/anliShow?id={{item.id}}'>
+         <image src="{{item.thumb}}" ></image>
+         <view class="title ftz06 t-one pdl02 pdr02 ">{{item.title}}</view>
+      </navigator>
+    </view>
+    <view style='height:20px;float:left;width:100%;'></view>
+    <navigator url="/pages/case/index?id=1">
+      <text class='more mart05'>更多案例</text>
+      
+    </navigator>
+</view>
+<view class="case_title pdt05 pdb05" >
+  <view class="ftz09">服务领域</view>
+  <view class="ftz05">Client</view>
+</view>
+<view class=" clo_one w100box pdl10 pdr10 ">
+    <view class="col_list w100box marb10 pdb10"  style="border-bottom:1px solid #e0e0e0;">
+      <image src="{{urL}}/images/pinpai.png" mode="widthFix" class='w2 pdb10 '></image>
+
+      <view class='ftz09 pdb05'>高端网站</view>
+      <view class='ftz075 pdb10 tx-l'>互联网网站建设综合服务包括企事业数字门户建设、互联网金融平台建设、营销型网站建设...</view>
+      <view class='ftz07 tx-l pdb05'>·  品牌网站创意设计</view>
+      <view class='ftz07 tx-l pdb05'>·  企业集团网站建设</view>
+      <view class='ftz07 tx-l pdb05'>·  平台/门户网站建设</view>
+    </view>
+    <view class="col_list w100box marb10 pdb10"  style="border-bottom:1px solid #e0e0e0;">
+        <image src="{{urL}}/images/phone.png" mode="widthFix" class='w2 pdb10 '></image>   
+
+        <view class='ftz09 pdb05'>移动应用开发</view>
+        <view class='ftz075 pdb10 tx-l'>以移动互联网及智能终端为载体,将用户和企业j进行l连接。公司提供的移动端服务具有高度定制化...</view>
+        <view class='ftz07 tx-l pdb05'>·  手机网站建设</view>
+        <view class='ftz07 tx-l pdb05'>·  微官网建设</view>
+        <view class='ftz07 tx-l pdb05'>·  微活动创意设计</view>
+        <view class='ftz07 tx-l pdb05'>·  APP/IOS应用开发</view>
+    </view>
+    <view class="col_list w100box marb10 pdb10"  style="border-bottom:1px solid #e0e0e0;">
+        <image src="{{urL}}/images/yingxiao.png" mode="widthFix" class='w2 pdb10 '></image>  
+        <view class='ftz09 pdb05'>品牌营销推广</view>
+        <view class='ftz075 pdb10 tx-l'>公司以互联网和移动互联网为媒体,利用数字化信息和网络媒体d的交互性来帮助企业实现线上营销...</view>
+        <view class='ftz07 tx-l pdb05'>·  SEO搜索引擎优化</view>
+        <view class='ftz07 tx-l pdb05'>·  传统企业线上/线下战略规则</view>
+        <view class='ftz07 tx-l pdb05'>·  微信，微博活动营销</view>
+    </view>
+</view>
+<view class="case_title" >
+  <view class="ftz09">资讯动态</view>
+  <view class="ftz05">Website construction plan</view>
+</view>
+<view class="news w100box pdl05 pdr05">
+  <view class="case_list clo_two w100box pdl05 pdr05" style='overflow:auto'>
+  <block wx:for="{{news_list}}" wx:key="{{index}}">
+  <navigator url='/pages/zixunShow/zixunShow?id={{item.id}}'>
+    <view class="col_list pdl05 pdb08 pdb05 w100box"  data-id='{{item.id}}'>
+            <image src="{{item.thumb}}" ></image>
+            <view class="title ftz07 t-one pdl02 pdr02">{{item.title}}</view>        
+        </view>  
+  </navigator>
+        
+  </block>  
+  <view style='height:20px;float:left;width:100%;'></view>
+    <navigator url="/pages/zixun/zixun?id=1" style='text-align:center;'>
+      <text class='more mart05'>更多资讯</text>      
+    </navigator>
+</view>
+</view>
+
+
+</scroll-view>

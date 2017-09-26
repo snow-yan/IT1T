@@ -1,0 +1,6 @@
+<!--pages/zifeiShow/zifeiShow.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view style="padding:10px 15px;">
+  <text style="font-size:16px;">{{title}}</text>
+   <template is="wxParse" data="{{wxParseData:content.nodes}}" /> 
+</view>

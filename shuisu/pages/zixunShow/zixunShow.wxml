@@ -1,0 +1,2 @@
+<!--pages/zixunShow/zixunShow.wxml-->
+   <template is="wxParse" data="{{wxParseData:content.nodes}}" /> 
